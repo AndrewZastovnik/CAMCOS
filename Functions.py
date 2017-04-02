@@ -34,6 +34,24 @@ class factor_weighting():
 
 
 #pyspark functions
+
+#spark = sparksession()
+
 #df = spark.read.parquet("/home/andrew/Documents/CAMCOS/Verizon/Verizon data/agg/oneday/feature/day=2016-11-25")
 #df2 = df.toPandas()
 #df2.to_csv('/home/andrew/downloads/example.csv')
+
+#df = spark.read.parquet("/home/andrew/Documents/CAMCOS/Verizon/Verizon data/agg/oneday/profile/date=20161125")
+#df2 = df.toPandas()
+#df2.to_csv('/home/andrew/downloads/example.csv')
+
+#df = spark.read.parquet("/home/andrew/Documents/CAMCOS/Verizon/Verizon data/agg/agg/hist/date=20170202")
+#df2 = df.toPandas()
+#df2.to_csv('/home/andrew/downloads/example.csv')
+
+
+#df = spark.read.parquet("/home/andrew/Documents/CAMCOS/Verizon/Verizon data/agg/agg/profileAgg/date=20161125")
+
+#converte to csv
+import os
+for dir in os.
